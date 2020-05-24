@@ -11,6 +11,7 @@ nnoremap <M-l>    :vertical resize +2<CR>
 " I hate escape more than anything else
 inoremap jk <Esc>
 inoremap kj <Esc>
+nnoremap <C-c> <Esc>
 
 " Easy CAPS
 inoremap <C-u> <ESC>viwUi
@@ -25,8 +26,6 @@ nnoremap <S-TAB> :bprevious<CR>
 nnoremap <Leader>w :w!<CR>
 " Alternate way to quit
 nnoremap <Leader>q :wq!<CR>
-" Use control-c instead of escape
-nnoremap <C-c> <Esc>
 " <TAB>: completion.
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
@@ -50,3 +49,6 @@ vnoremap <C-c> "+y
 " Disable highlight when <Leader><CR> is pressed
 nmap <Leader><CR> :noh<CR>
 
+" Move visual lines up or down while adjusting formatting
+vnoremap J :m '>+1<CR>gv=gv
+vnoremap K :m '<-2<CR>gv=gv
