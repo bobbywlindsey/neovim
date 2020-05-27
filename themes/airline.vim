@@ -13,7 +13,7 @@ let g:airline_right_alt_sep = ''
 
 " Switch to your current theme
 " let g:airline_theme = 'deus'
-let g:airline_theme = 'gruvbox'
+let g:airline_theme = 'onedark'
 
 " Always show tabs 
 set showtabline=2
