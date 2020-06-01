@@ -40,6 +40,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " NERDTree
   Plug 'preservim/nerdtree'
 
+  " Git plugin
+  Plug 'tpope/vim-fugitive'
+
 call plug#end()
 
 " Automatically install missing plugins on startup

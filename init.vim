@@ -9,6 +9,7 @@ source $HOME/.config/nvim/plug-config/commentary.vim
 source $HOME/.config/nvim/plug-config/goyo.vim
 source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/fzf.vim
+source $HOME/.config/nvim/plug-config/fugitive.vim
 " source $HOME/.config/nvim/plug-config/vim-which-key.vim
 source $HOME/.config/nvim/themes/airline.vim
 source $HOME/.config/nvim/plug-config/nerdtree.vim
