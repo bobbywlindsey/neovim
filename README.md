@@ -4,21 +4,33 @@ These are my config files for neovim.
 
 ### Install
 
-Mac:
 
-`brew install neovim`
-`pip install pynvim`
+Install neovim and linters:
+```
+brew install neovim
+pip install pynvim
+```
 
-Ubuntu:
+### Ubuntu
 
-`sudo apt install neovim`
+Install node:
 
 ```
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
-`pip install pynvim`
+Install neovim and linters:
 
+```
+sudo apt install neovim
+pip install pynvim
+```
 
+### Install Coc extensions
 
+```
+:CocInstall coc-python
+:CocInstall coc-sql
+:CocInstall coc-cfn-lint
+```
