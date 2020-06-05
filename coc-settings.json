@@ -1,0 +1,6 @@
+{
+  "python.linting.pylintUseMinimalCheckers": false,
+  "python.condaPath": "/home/bobby/anaconda3/bin",
+  "sql.lintOnChange": false
+}
+
