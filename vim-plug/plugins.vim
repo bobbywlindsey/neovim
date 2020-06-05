@@ -34,7 +34,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   " Add some color
   Plug 'norcalli/nvim-colorizer.lua'
-  Plug 'junegunn/rainbow_parentheses.vim'
   Plug 'joshdick/onedark.vim'
 
   " NERDTree
