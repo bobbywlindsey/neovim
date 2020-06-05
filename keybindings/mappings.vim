@@ -25,7 +25,7 @@ nnoremap <S-TAB> :bprevious<CR>
 " Alternate way to save
 nnoremap <Leader>w :w!<CR>
 " Alternate way to quit
-nnoremap <Leader>q :wq!<CR>
+nnoremap <Leader>q :q!<CR>
 " <TAB>: completion.
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
