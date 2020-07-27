@@ -14,4 +14,5 @@ source $HOME/.config/nvim/plug-config/fugitive.vim
 source $HOME/.config/nvim/themes/airline.vim
 source $HOME/.config/nvim/plug-config/nerdtree.vim
 " source $HOME/.config/nvim/plug-config/surround.vim
+source $HOME/.config/nvim/plug-config/vim-markdown.vim
 

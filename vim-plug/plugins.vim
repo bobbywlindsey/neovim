@@ -19,6 +19,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   " Zen mode
   Plug 'junegunn/goyo.vim'
+  Plug 'plasticboy/vim-markdown'
 
   " Intellisense
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
