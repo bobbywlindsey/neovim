@@ -43,8 +43,8 @@ nnoremap <Leader>o o<Esc>^Da
 nnoremap <Leader>O O<Esc>^Da
 
 " Copy to clipboard with YY or Ctrl-c
-vnoremap  YY "+y
-vnoremap <C-c> "+y
+"vnoremap YY "*y
+vnoremap <C-c> "*y
 
 " Disable highlight when <Leader><CR> is pressed
 nmap <Leader><CR> :noh<CR>
